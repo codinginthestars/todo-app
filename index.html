@@ -2,20 +2,38 @@
 <html>
   <head>
     <bds />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css" />
     <script src="index.js" defer></script>
     <title>BigDevSoon - Todo App Project</title>
   </head>
   <body>
     <!-- Place below is for your own exciting code -->
-    <p>Time to write some code! 👀</p>
+    <div class="container">
+      <div class="todo-app">
+        <h2>TODO <img src="assets/icons/light-mode.svg"></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your tasks">
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+
+
+
+
     <!-- Change the [ME] part to your own name/GitHub link -->
     <div class="footer">
       <a href="https://bigdevsoon.me" target="_blank" rel="noopener noreferrer"
         >Project by BigDevSoon</a
       >
       |
-      <span>Built with ❤️ by [ME]</span>
+      <span>Built with ❤️ by William Bailey</span>
     </div>
   </body>
 </html>
